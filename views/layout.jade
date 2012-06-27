@@ -1,0 +1,44 @@
+!!! 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width initial-scale=1.0, maximum-scale=1, user-scalable=no')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    include bootstrap
+    script(src='/javascripts/modernizr-2.5.3.js')
+  body
+    .header
+      .container
+        .row-fluid
+          .span12
+            img(src="/images/logo2.png")
+    .container
+      body!= body
+    .footer
+      .container
+        .row
+          #mail.span3
+            h3 Mail
+            span.address
+              | 1428 Lexington Ave
+              br
+              | New York, NY 10128
+          #demos.span3
+            h3 Demos
+            span.submit
+              | Submit Artists and Songs
+              br
+              a(href='mailto:music@crazedhits.com', target='_blank')
+                | music@crazedhits.com
+          #legal.span3
+            h3 Representation
+            span.address
+              | Mike McKoy
+              br
+              | Serling Rooks Ferrara McKoy & Worob, LLP
+          #social.span3
+            h3 Twitter
+            .ot
+              .oh
+                a(href='http://www.twitter.com/crazedhits', target='_blank')
+                  i.icomoon-twitter-alt

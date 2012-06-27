@@ -1,0 +1,65 @@
+body
+{
+  background: #F1F1F1;
+}
+
+.header
+{
+  background: #F1F1F1 url('../images/rebel.png') repeat-x;
+  padding: 10px 0 23px 0;
+  margin-bottom: 33px;
+}
+
+#artists img.artist
+{
+  box-shadow: 2px 2px 8px #B6B6B6;
+  margin-bottom: 25px;
+  border: 1px solid;
+}
+
+#artists .page-header
+{
+  border: none;
+  margin: 0;
+}
+
+#artists .page-header h1.sub
+{
+  margin-top: -8px;
+}
+#hero .hero-unit
+{
+  border: 1px solid;
+}
+
+.footer
+{
+  background: #eee;
+  padding: 15px 0 10px 0;
+  color: #888;
+  margin-top: 20px;
+}
+
+#social
+{
+  font-size: 30pt;
+}
+
+#social i
+{
+  margin-top: -15px;
+}
+
+@media (max-width: 767px) {
+  .header,
+  .footer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  #artists .page-header h1.sub {
+    margin-top: 0px;
+  }
+  .footer .span3{
+    padding: 4px;
+  }
+}
