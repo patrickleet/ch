@@ -2,7 +2,7 @@
     "name": "crazed-hits"
   , "version": "1.0.0"
   , "dependencies": {
-      "express": "2.5.8"
+      "express": "4.16.2"
     , "jade": ">= 0.0.1"
   },
   "engines": {
